@@ -16,3 +16,17 @@ button:disabled,input:disabled{opacity:.5;cursor:wait}.sheet-view{justify-conten
 /* Blend the scanned paper into the library surface without changing the artwork. */
 .library-art{isolation:isolate}.library-art>svg{mix-blend-mode:multiply}
 
+/* Import page: full sample strips and a compact, clear input flow. */
+#app.import-page{min-height:0}
+.import-page .workspace{align-items:stretch}
+.import-page #submit-source{margin-top:18px;min-height:46px}
+.import-page #demo{min-height:116px;padding:20px;gap:18px;background:#f3f5ed}
+.import-page #demo .thumb{width:76px;height:76px;flex-shrink:0}
+.import-page #demo strong{font-size:14px}
+.import-page .preview-panel{min-height:0;max-height:none;padding:24px;overflow:hidden}
+.import-page .preview-head{letter-spacing:1px;gap:12px}
+.import-page .sample-wrap{transform:none;margin:22px 0 0;gap:12px;align-items:flex-start}
+.import-page .paper-strip{width:calc((100% - 12px)/2);min-width:0;flex:1;padding:12px 8px}
+.import-page .paper-strip:nth-child(2){transform:none}
+.import-page .steps{margin:24px 0}
+@media(max-width:800px){.import-page .preview-panel{padding:22px}.import-page .sample-wrap{max-width:360px;margin:20px auto 0}.import-page .workspace{gap:20px}}
