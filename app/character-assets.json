@@ -1,0 +1,1431 @@
+{
+  "version": 1,
+  "characterId": "original-girl-v1",
+  "identity": "原版棕色丸子头小女孩、淡紫色背心、灰绿色长裤；使用原版00/03/12作人物参考。",
+  "generationTool": "built-in-image_gen",
+  "reviewNotice": "人物一致性经目视比对，动作细节为候选稿，尚未完成专业体式审核。",
+  "atlases": {
+    "01": {
+      "url": "/assets/original-girl-atlas-01.png",
+      "width": 1254,
+      "height": 1254,
+      "columns": 4,
+      "rows": 4,
+      "sha256": "1de695eef9722dfd86365317935f0361ba18df6609a44411871c64457821882d"
+    },
+    "02": {
+      "url": "/assets/original-girl-atlas-02.png",
+      "width": 1254,
+      "height": 1254,
+      "columns": 4,
+      "rows": 4,
+      "sha256": "ccee176ab1c0fae62e24a768604a879666a1f41ae1753aeb1cdd2d47aba70f06"
+    },
+    "03": {
+      "url": "/assets/original-girl-atlas-03.png",
+      "width": 1254,
+      "height": 1254,
+      "columns": 4,
+      "rows": 4,
+      "sha256": "a6be4d06da8cfdc8a6e95f4c2d064063240a3a5230c12f5cce3a2e63da3b053c"
+    },
+    "04": {
+      "url": "/assets/original-girl-atlas-04.png",
+      "width": 1254,
+      "height": 1254,
+      "columns": 4,
+      "rows": 4,
+      "sha256": "08d2b7a28aa9dfc9771588a29d5b8b50c0b525674242d44d6367809a691d813d"
+    },
+    "05": {
+      "url": "/assets/original-girl-atlas-05.png",
+      "width": 1254,
+      "height": 1254,
+      "columns": 4,
+      "rows": 4,
+      "sha256": "b8b615209af83ad9d471bc3a5081ede55ad1f754facfacee7db62bc8437eeb86"
+    },
+    "06": {
+      "url": "/assets/original-girl-atlas-06.png",
+      "width": 1254,
+      "height": 1254,
+      "columns": 4,
+      "rows": 4,
+      "sha256": "aa38977346294c23be95aceef53ac65bad747ef326bff7e604883348d58545c3"
+    },
+    "07": {
+      "url": "/assets/original-girl-atlas-07.png",
+      "width": 1774,
+      "height": 887,
+      "columns": 4,
+      "rows": 2,
+      "sha256": "68b9700743cc18138f2526c537310bee8d753fe69a0107928b4bad66d481aebc"
+    },
+    "08": {
+      "url": "/assets/original-girl-atlas-08.png",
+      "width": 1774,
+      "height": 887,
+      "columns": 4,
+      "rows": 2,
+      "sha256": "2a615c61f1cb7eb99d672e651323c196e2f9161b4c3f1cb207c322a9b2c91eab"
+    }
+  },
+  "poses": {
+    "mountain": {
+      "id": "original-girl-v1-mountain",
+      "characterId": "original-girl-v1",
+      "atlas": "01",
+      "cell": 0,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "upward-salute": {
+      "id": "original-girl-v1-upward-salute",
+      "characterId": "original-girl-v1",
+      "atlas": "01",
+      "cell": 1,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "chair": {
+      "id": "original-girl-v1-chair",
+      "characterId": "original-girl-v1",
+      "atlas": "01",
+      "cell": 2,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "warrior-2": {
+      "id": "original-girl-v1-warrior-2",
+      "characterId": "original-girl-v1",
+      "atlas": "01",
+      "cell": 3,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "warrior-1": {
+      "id": "original-girl-v1-warrior-1",
+      "characterId": "original-girl-v1",
+      "atlas": "01",
+      "cell": 4,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "triangle": {
+      "id": "original-girl-v1-triangle",
+      "characterId": "original-girl-v1",
+      "atlas": "01",
+      "cell": 5,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "side-angle": {
+      "id": "original-girl-v1-side-angle",
+      "characterId": "original-girl-v1",
+      "atlas": "01",
+      "cell": 6,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "tree": {
+      "id": "original-girl-v1-tree",
+      "characterId": "original-girl-v1",
+      "atlas": "01",
+      "cell": 7,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "staff": {
+      "id": "original-girl-v1-staff",
+      "characterId": "original-girl-v1",
+      "atlas": "01",
+      "cell": 8,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "seated-fold": {
+      "id": "original-girl-v1-seated-fold",
+      "characterId": "original-girl-v1",
+      "atlas": "01",
+      "cell": 9,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "boat": {
+      "id": "original-girl-v1-boat",
+      "characterId": "original-girl-v1",
+      "atlas": "01",
+      "cell": 10,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "sphinx": {
+      "id": "original-girl-v1-sphinx",
+      "characterId": "original-girl-v1",
+      "atlas": "01",
+      "cell": 11,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "bridge": {
+      "id": "original-girl-v1-bridge",
+      "characterId": "original-girl-v1",
+      "atlas": "01",
+      "cell": 12,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "corpse": {
+      "id": "original-girl-v1-corpse",
+      "characterId": "original-girl-v1",
+      "atlas": "01",
+      "cell": 13,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "camel": {
+      "id": "original-girl-v1-camel",
+      "characterId": "original-girl-v1",
+      "atlas": "01",
+      "cell": 14,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "standing-fold": {
+      "id": "original-girl-v1-standing-fold",
+      "characterId": "original-girl-v1",
+      "atlas": "01",
+      "cell": 15,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "standing-sidebend": {
+      "id": "original-girl-v1-standing-sidebend",
+      "characterId": "original-girl-v1",
+      "atlas": "02",
+      "cell": 0,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "half-standing-fold": {
+      "id": "original-girl-v1-half-standing-fold",
+      "characterId": "original-girl-v1",
+      "atlas": "02",
+      "cell": 1,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "pyramid": {
+      "id": "original-girl-v1-pyramid",
+      "characterId": "original-girl-v1",
+      "atlas": "02",
+      "cell": 2,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "revolved-chair": {
+      "id": "original-girl-v1-revolved-chair",
+      "characterId": "original-girl-v1",
+      "atlas": "02",
+      "cell": 3,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "high-lunge": {
+      "id": "original-girl-v1-high-lunge",
+      "characterId": "original-girl-v1",
+      "atlas": "02",
+      "cell": 4,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "crescent-lunge": {
+      "id": "original-girl-v1-crescent-lunge",
+      "characterId": "original-girl-v1",
+      "atlas": "02",
+      "cell": 5,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "reverse-warrior": {
+      "id": "original-girl-v1-reverse-warrior",
+      "characterId": "original-girl-v1",
+      "atlas": "02",
+      "cell": 6,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "revolved-triangle": {
+      "id": "original-girl-v1-revolved-triangle",
+      "characterId": "original-girl-v1",
+      "atlas": "08",
+      "cell": 6,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "revolved-side-angle": {
+      "id": "original-girl-v1-revolved-side-angle",
+      "characterId": "original-girl-v1",
+      "atlas": "02",
+      "cell": 8,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "goddess": {
+      "id": "original-girl-v1-goddess",
+      "characterId": "original-girl-v1",
+      "atlas": "02",
+      "cell": 9,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "garland": {
+      "id": "original-girl-v1-garland",
+      "characterId": "original-girl-v1",
+      "atlas": "02",
+      "cell": 10,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "eagle": {
+      "id": "original-girl-v1-eagle",
+      "characterId": "original-girl-v1",
+      "atlas": "02",
+      "cell": 11,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "warrior-3": {
+      "id": "original-girl-v1-warrior-3",
+      "characterId": "original-girl-v1",
+      "atlas": "02",
+      "cell": 12,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "half-moon": {
+      "id": "original-girl-v1-half-moon",
+      "characterId": "original-girl-v1",
+      "atlas": "08",
+      "cell": 4,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "revolved-half-moon": {
+      "id": "original-girl-v1-revolved-half-moon",
+      "characterId": "original-girl-v1",
+      "atlas": "08",
+      "cell": 5,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "dancer": {
+      "id": "original-girl-v1-dancer",
+      "characterId": "original-girl-v1",
+      "atlas": "02",
+      "cell": 15,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "hand-big-toe": {
+      "id": "original-girl-v1-hand-big-toe",
+      "characterId": "original-girl-v1",
+      "atlas": "03",
+      "cell": 0,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "standing-split": {
+      "id": "original-girl-v1-standing-split",
+      "characterId": "original-girl-v1",
+      "atlas": "03",
+      "cell": 1,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "lotus": {
+      "id": "original-girl-v1-lotus",
+      "characterId": "original-girl-v1",
+      "atlas": "03",
+      "cell": 2,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "half-lotus": {
+      "id": "original-girl-v1-half-lotus",
+      "characterId": "original-girl-v1",
+      "atlas": "08",
+      "cell": 0,
+      "cropBottom": 0.1,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "seated-arms-up": {
+      "id": "original-girl-v1-seated-arms-up",
+      "characterId": "original-girl-v1",
+      "atlas": "03",
+      "cell": 4,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "revolved-head-knee": {
+      "id": "original-girl-v1-revolved-head-knee",
+      "characterId": "original-girl-v1",
+      "atlas": "03",
+      "cell": 5,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "wide-seated-fold": {
+      "id": "original-girl-v1-wide-seated-fold",
+      "characterId": "original-girl-v1",
+      "atlas": "03",
+      "cell": 6,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "bound-angle": {
+      "id": "original-girl-v1-bound-angle",
+      "characterId": "original-girl-v1",
+      "atlas": "03",
+      "cell": 7,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "cow-face": {
+      "id": "original-girl-v1-cow-face",
+      "characterId": "original-girl-v1",
+      "atlas": "03",
+      "cell": 8,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "fire-log": {
+      "id": "original-girl-v1-fire-log",
+      "characterId": "original-girl-v1",
+      "atlas": "08",
+      "cell": 7,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "half-spinal-twist": {
+      "id": "original-girl-v1-half-spinal-twist",
+      "characterId": "original-girl-v1",
+      "atlas": "03",
+      "cell": 10,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "bharadvaja": {
+      "id": "original-girl-v1-bharadvaja",
+      "characterId": "original-girl-v1",
+      "atlas": "03",
+      "cell": 11,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "marichi-1": {
+      "id": "original-girl-v1-marichi-1",
+      "characterId": "original-girl-v1",
+      "atlas": "03",
+      "cell": 12,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "marichi-3": {
+      "id": "original-girl-v1-marichi-3",
+      "characterId": "original-girl-v1",
+      "atlas": "03",
+      "cell": 13,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "heron": {
+      "id": "original-girl-v1-heron",
+      "characterId": "original-girl-v1",
+      "atlas": "03",
+      "cell": 14,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "half-boat": {
+      "id": "original-girl-v1-half-boat",
+      "characterId": "original-girl-v1",
+      "atlas": "08",
+      "cell": 1,
+      "cropBottom": 0.1,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "hero": {
+      "id": "original-girl-v1-hero",
+      "characterId": "original-girl-v1",
+      "atlas": "04",
+      "cell": 0,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "gate": {
+      "id": "original-girl-v1-gate",
+      "characterId": "original-girl-v1",
+      "atlas": "04",
+      "cell": 1,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "tabletop": {
+      "id": "original-girl-v1-tabletop",
+      "characterId": "original-girl-v1",
+      "atlas": "04",
+      "cell": 2,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "bird-dog": {
+      "id": "original-girl-v1-bird-dog",
+      "characterId": "original-girl-v1",
+      "atlas": "04",
+      "cell": 3,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "tiger": {
+      "id": "original-girl-v1-tiger",
+      "characterId": "original-girl-v1",
+      "atlas": "04",
+      "cell": 4,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "wide-child": {
+      "id": "original-girl-v1-wide-child",
+      "characterId": "original-girl-v1",
+      "atlas": "04",
+      "cell": 5,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "puppy": {
+      "id": "original-girl-v1-puppy",
+      "characterId": "original-girl-v1",
+      "atlas": "04",
+      "cell": 6,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "low-lunge": {
+      "id": "original-girl-v1-low-lunge",
+      "characterId": "original-girl-v1",
+      "atlas": "04",
+      "cell": 7,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "revolved-low-lunge": {
+      "id": "original-girl-v1-revolved-low-lunge",
+      "characterId": "original-girl-v1",
+      "atlas": "04",
+      "cell": 8,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "half-split": {
+      "id": "original-girl-v1-half-split",
+      "characterId": "original-girl-v1",
+      "atlas": "04",
+      "cell": 9,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "upward-dog": {
+      "id": "original-girl-v1-upward-dog",
+      "characterId": "original-girl-v1",
+      "atlas": "04",
+      "cell": 10,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "locust": {
+      "id": "original-girl-v1-locust",
+      "characterId": "original-girl-v1",
+      "atlas": "04",
+      "cell": 11,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "bow": {
+      "id": "original-girl-v1-bow",
+      "characterId": "original-girl-v1",
+      "atlas": "04",
+      "cell": 12,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "half-frog": {
+      "id": "original-girl-v1-half-frog",
+      "characterId": "original-girl-v1",
+      "atlas": "04",
+      "cell": 13,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "crocodile": {
+      "id": "original-girl-v1-crocodile",
+      "characterId": "original-girl-v1",
+      "atlas": "04",
+      "cell": 14,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "constructive-rest": {
+      "id": "original-girl-v1-constructive-rest",
+      "characterId": "original-girl-v1",
+      "atlas": "04",
+      "cell": 15,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "knees-chest": {
+      "id": "original-girl-v1-knees-chest",
+      "characterId": "original-girl-v1",
+      "atlas": "05",
+      "cell": 0,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "single-knee-chest": {
+      "id": "original-girl-v1-single-knee-chest",
+      "characterId": "original-girl-v1",
+      "atlas": "05",
+      "cell": 1,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "happy-baby": {
+      "id": "original-girl-v1-happy-baby",
+      "characterId": "original-girl-v1",
+      "atlas": "05",
+      "cell": 2,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "reclined-bound-angle": {
+      "id": "original-girl-v1-reclined-bound-angle",
+      "characterId": "original-girl-v1",
+      "atlas": "05",
+      "cell": 3,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "reclined-figure-four": {
+      "id": "original-girl-v1-reclined-figure-four",
+      "characterId": "original-girl-v1",
+      "atlas": "05",
+      "cell": 4,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "reclined-twist": {
+      "id": "original-girl-v1-reclined-twist",
+      "characterId": "original-girl-v1",
+      "atlas": "05",
+      "cell": 5,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "reclined-big-toe": {
+      "id": "original-girl-v1-reclined-big-toe",
+      "characterId": "original-girl-v1",
+      "atlas": "05",
+      "cell": 6,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "supported-bridge": {
+      "id": "original-girl-v1-supported-bridge",
+      "characterId": "original-girl-v1",
+      "atlas": "08",
+      "cell": 2,
+      "cropBottom": 0.1,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "fish": {
+      "id": "original-girl-v1-fish",
+      "characterId": "original-girl-v1",
+      "atlas": "05",
+      "cell": 8,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "reclined-hero": {
+      "id": "original-girl-v1-reclined-hero",
+      "characterId": "original-girl-v1",
+      "atlas": "05",
+      "cell": 9,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "legs-wall": {
+      "id": "original-girl-v1-legs-wall",
+      "characterId": "original-girl-v1",
+      "atlas": "05",
+      "cell": 10,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "supine-legs-up": {
+      "id": "original-girl-v1-supine-legs-up",
+      "characterId": "original-girl-v1",
+      "atlas": "05",
+      "cell": 11,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "forearm-plank": {
+      "id": "original-girl-v1-forearm-plank",
+      "characterId": "original-girl-v1",
+      "atlas": "05",
+      "cell": 12,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "four-limbed-staff": {
+      "id": "original-girl-v1-four-limbed-staff",
+      "characterId": "original-girl-v1",
+      "atlas": "05",
+      "cell": 13,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "side-plank": {
+      "id": "original-girl-v1-side-plank",
+      "characterId": "original-girl-v1",
+      "atlas": "05",
+      "cell": 14,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "kneeling-side-plank": {
+      "id": "original-girl-v1-kneeling-side-plank",
+      "characterId": "original-girl-v1",
+      "atlas": "05",
+      "cell": 15,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "three-legged-dog": {
+      "id": "original-girl-v1-three-legged-dog",
+      "characterId": "original-girl-v1",
+      "atlas": "06",
+      "cell": 0,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "dolphin": {
+      "id": "original-girl-v1-dolphin",
+      "characterId": "original-girl-v1",
+      "atlas": "06",
+      "cell": 1,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "reverse-plank": {
+      "id": "original-girl-v1-reverse-plank",
+      "characterId": "original-girl-v1",
+      "atlas": "06",
+      "cell": 2,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "reverse-tabletop": {
+      "id": "original-girl-v1-reverse-tabletop",
+      "characterId": "original-girl-v1",
+      "atlas": "06",
+      "cell": 3,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "wild-thing": {
+      "id": "original-girl-v1-wild-thing",
+      "characterId": "original-girl-v1",
+      "atlas": "06",
+      "cell": 4,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "pigeon-prep": {
+      "id": "original-girl-v1-pigeon-prep",
+      "characterId": "original-girl-v1",
+      "atlas": "06",
+      "cell": 5,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "sleeping-pigeon": {
+      "id": "original-girl-v1-sleeping-pigeon",
+      "characterId": "original-girl-v1",
+      "atlas": "06",
+      "cell": 6,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "lizard": {
+      "id": "original-girl-v1-lizard",
+      "characterId": "original-girl-v1",
+      "atlas": "08",
+      "cell": 3,
+      "cropBottom": 0.1,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "frog-stretch": {
+      "id": "original-girl-v1-frog-stretch",
+      "characterId": "original-girl-v1",
+      "atlas": "06",
+      "cell": 8,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "splits": {
+      "id": "original-girl-v1-splits",
+      "characterId": "original-girl-v1",
+      "atlas": "06",
+      "cell": 9,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "king-pigeon": {
+      "id": "original-girl-v1-king-pigeon",
+      "characterId": "original-girl-v1",
+      "atlas": "06",
+      "cell": 10,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "headstand": {
+      "id": "original-girl-v1-headstand",
+      "characterId": "original-girl-v1",
+      "atlas": "06",
+      "cell": 11,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "shoulderstand": {
+      "id": "original-girl-v1-shoulderstand",
+      "characterId": "original-girl-v1",
+      "atlas": "06",
+      "cell": 12,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "plow": {
+      "id": "original-girl-v1-plow",
+      "characterId": "original-girl-v1",
+      "atlas": "06",
+      "cell": 13,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "handstand": {
+      "id": "original-girl-v1-handstand",
+      "characterId": "original-girl-v1",
+      "atlas": "06",
+      "cell": 14,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "forearm-stand": {
+      "id": "original-girl-v1-forearm-stand",
+      "characterId": "original-girl-v1",
+      "atlas": "06",
+      "cell": 15,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "wheel": {
+      "id": "original-girl-v1-wheel",
+      "characterId": "original-girl-v1",
+      "atlas": "07",
+      "cell": 0,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "crow": {
+      "id": "original-girl-v1-crow",
+      "characterId": "original-girl-v1",
+      "atlas": "07",
+      "cell": 1,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "side-crow": {
+      "id": "original-girl-v1-side-crow",
+      "characterId": "original-girl-v1",
+      "atlas": "07",
+      "cell": 2,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "eight-angle": {
+      "id": "original-girl-v1-eight-angle",
+      "characterId": "original-girl-v1",
+      "atlas": "07",
+      "cell": 3,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "peacock": {
+      "id": "original-girl-v1-peacock",
+      "characterId": "original-girl-v1",
+      "atlas": "07",
+      "cell": 4,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "scale": {
+      "id": "original-girl-v1-scale",
+      "characterId": "original-girl-v1",
+      "atlas": "07",
+      "cell": 5,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "firefly": {
+      "id": "original-girl-v1-firefly",
+      "characterId": "original-girl-v1",
+      "atlas": "07",
+      "cell": 6,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    },
+    "crane": {
+      "id": "original-girl-v1-crane",
+      "characterId": "original-girl-v1",
+      "atlas": "07",
+      "cell": 7,
+      "styleReview": "accepted",
+      "poseReview": "draft",
+      "referenceAssetIds": [
+        "original-00",
+        "original-03",
+        "original-12"
+      ]
+    }
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "version": 1,
+  "character": {
+    "id": "original-girl-v1",
+    "label": "用户原版小女孩",
+    "policy": "只能复用已入库的同一人物素材。禁止用程序新画人物替代，禁止在输出时临时换画风。新增图必须经过人物一致性与动作复核后才能入库。"
+  },
+  "sources": [
+    {
+      "name": "Yoga Journal Pose Library",
+      "url": "https://www.yogajournal.com/poses/library/"
+    },
+    {
+      "name": "Iyengar Yoga UK",
+      "url": "https://iyengaryoga.org.uk/iyengar-yoga/frequently-asked-questions/"
+    }
+  ],
+  "entries": [
+    {
+      "id": "original-00",
+      "characterId": "original-girl-v1",
+      "assetIndex": 0,
+      "label": "坐姿调息",
+      "assetSha256": "9f0d376a6b0a2f0153d12f4c72a97363391d726a807e0fe6de946506a78fcb2c",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-01",
+      "characterId": "original-girl-v1",
+      "assetIndex": 1,
+      "label": "颈侧伸展",
+      "assetSha256": "db3de38719b37580f307360a48b3b640866027250332fbb8902b5e473c6e64e6",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-02",
+      "characterId": "original-girl-v1",
+      "assetIndex": 2,
+      "label": "十指交扣上伸",
+      "assetSha256": "1ad36197abbfb509d6e52bc7819aa4bd41c58870c88f28396c9aa7e7c953c16b",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-03",
+      "characterId": "original-girl-v1",
+      "assetIndex": 3,
+      "label": "坐姿侧伸展",
+      "assetSha256": "83aae76026626f2a71ea638517549a485757770b2ca6ab457501fd122d330572",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-04",
+      "characterId": "original-girl-v1",
+      "assetIndex": 4,
+      "label": "坐姿扭转",
+      "assetSha256": "2e2f2ef9eea0f37ffea9721a2d6e3b1fe1aa0821c5725564d518de968700b35f",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-05",
+      "characterId": "original-girl-v1",
+      "assetIndex": 5,
+      "label": "束角前屈",
+      "assetSha256": "dde2730f7c0705540f8e1660c513ae13019f310e68615494f5166afbc6e5e077",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-06",
+      "characterId": "original-girl-v1",
+      "assetIndex": 6,
+      "label": "单腿前屈",
+      "assetSha256": "104b3e7d95000a1f5da3c76ccf702b93eba64aaee02619c66862bf55680f6561",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-07",
+      "characterId": "original-girl-v1",
+      "assetIndex": 7,
+      "label": "跪姿支撑侧伸",
+      "assetSha256": "742addf020c0ad9ee26c7947ae1c083a9fd5cef381241af0a625d7a22a3403ef",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-08",
+      "characterId": "original-girl-v1",
+      "assetIndex": 8,
+      "label": "牛式",
+      "assetSha256": "4da19b88e0df5cd032c93ec8c31844ea214901f57b02ad38256f4178da374ed0",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-09",
+      "characterId": "original-girl-v1",
+      "assetIndex": 9,
+      "label": "猫式",
+      "assetSha256": "2398ec356b594302fc277d6496431a4e64373b6e3d1491d86caaf5cd546ff71e",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-10",
+      "characterId": "original-girl-v1",
+      "assetIndex": 10,
+      "label": "平板支撑",
+      "assetSha256": "5b0801181b0c2dd6a13559dae2e076349bf92bbe18b0c877b5e4601063203d19",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-11",
+      "characterId": "original-girl-v1",
+      "assetIndex": 11,
+      "label": "俯卧伸展",
+      "assetSha256": "fa5f35ecb9f67a64a3322d663f52991bd8af7c1490c68f65b1b63e5df1bcf1b2",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-12",
+      "characterId": "original-girl-v1",
+      "assetIndex": 12,
+      "label": "下犬式",
+      "assetSha256": "f8fe35b904dff554516618a4dea986be833ac18a68cebf9f516e066cfaaead14",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-13",
+      "characterId": "original-girl-v1",
+      "assetIndex": 13,
+      "label": "低弓步",
+      "assetSha256": "d618869062a2e59f9416827cf65ff6e7bb6141be698a828a885e14269805f10c",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-14",
+      "characterId": "original-girl-v1",
+      "assetIndex": 14,
+      "label": "弓步单臂上伸",
+      "assetSha256": "cb9db3168116b633b1adbbb975f09ca50a01c7f8877e34f7c3e27d76711de04e",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-15",
+      "characterId": "original-girl-v1",
+      "assetIndex": 15,
+      "label": "高弓步合十",
+      "assetSha256": "77651143edba544e320c86983f1a0f0cbc29d22347fa4e443274ee9328d2b4ff",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-16",
+      "characterId": "original-girl-v1",
+      "assetIndex": 16,
+      "label": "弓步合十扭转",
+      "assetSha256": "15fa409415c608ab2ce9e666710fae9255547068cf14524e0a5794e9433ea75a",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-17",
+      "characterId": "original-girl-v1",
+      "assetIndex": 17,
+      "label": "分腿前屈",
+      "assetSha256": "28e67e149496abbb584d169f54203219eacf79bd2d395976c6c35312eea4bb0c",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-18",
+      "characterId": "original-girl-v1",
+      "assetIndex": 18,
+      "label": "婴儿式",
+      "assetSha256": "8ee6636a25e1a2c852883398263179e204665a80aa85d53f4b7a01075cfa0344",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-19",
+      "characterId": "original-girl-v1",
+      "assetIndex": 19,
+      "label": "跪姿侧伸示意",
+      "assetSha256": "0ebe71b54de65942efa8703a92dc99fcf125b461f276d4ebd89d696335b6264f",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-20",
+      "characterId": "original-girl-v1",
+      "assetIndex": 20,
+      "label": "穿针引线示意",
+      "assetSha256": "7168a0a42edb767c0fe470ec1914fe37b962d2d536c9db868fdc7599de0bcf09",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-21",
+      "characterId": "original-girl-v1",
+      "assetIndex": 21,
+      "label": "跪坐调息",
+      "assetSha256": "2f1c4ef126e2df52391251c51de28d38194a62457efc827cfc9e124bb344aa1a",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-22",
+      "characterId": "original-girl-v1",
+      "assetIndex": 22,
+      "label": "跪坐双臂上举",
+      "assetSha256": "d8391cb273da96265a7e0d7f3848a8248d74e3814d03787bb3225946389810bb",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    },
+    {
+      "id": "original-23",
+      "characterId": "original-girl-v1",
+      "assetIndex": 23,
+      "label": "合十收束",
+      "assetSha256": "c4a14ed4506001f724a5ea7cc8249220ee8f2105f6a08eaabcf22e770f76d4cf",
+      "styleStatus": "original-reference",
+      "anatomyStatus": "pending-review",
+      "source": "用户原版样稿",
+      "variants": [],
+      "note": "原版样稿名称，尚不能视为专业动作核验通过。左右、手臂、落膝等变体不得仅按名称替用。"
+    }
+  ]
+}

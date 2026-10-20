@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-18T08:37:35.639Z",
+  "modelCalls": 0,
+  "results": [
+    {
+      "bvid": "BV1cZ4y1Z74s",
+      "pageReadable": false,
+      "playbackReadable": false,
+      "mediaReadable": false,
+      "error": "页面没有公开提供视频数据。"
+    },
+    {
+      "bvid": "BV1xV411y7c2",
+      "pageReadable": false,
+      "playbackReadable": false,
+      "mediaReadable": false,
+      "error": "页面没有公开提供视频数据。"
+    },
+    {
+      "bvid": "BV1hpF9eoE4X",
+      "pageReadable": false,
+      "playbackReadable": false,
+      "mediaReadable": false,
+      "error": "页面没有公开提供视频数据。"
+    }
+  ]
+}

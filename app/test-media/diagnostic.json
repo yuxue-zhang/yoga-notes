@@ -1,0 +1,179 @@
+{
+  "ok": true,
+  "elapsedMs": 34612,
+  "result": {
+    "title": "拜日式A序列",
+    "items": [
+      {
+        "id": "14ad7297-1583-445b-bb70-795caf506f2d",
+        "name": "合十收束",
+        "time": 0,
+        "side": "居中",
+        "cue": "山式合十",
+        "kind": 23,
+        "evidence": "0.2s：站立位，双手合十于胸前，身体直立",
+        "sideEvidence": "双脚并拢站立，双手合十于胸前"
+      },
+      {
+        "id": "c70f0aa1-5dc5-4f77-8922-17efe16b4a0f",
+        "name": "十指交扣上伸",
+        "time": 2,
+        "side": "居中",
+        "cue": "手臂上举",
+        "kind": 2,
+        "evidence": "2.2s-4.2s：双臂由合十位向上伸展至头顶上方，掌心朝上",
+        "sideEvidence": "双臂向上伸展过头，掌心朝上"
+      },
+      {
+        "id": "4d30ba25-10a5-4772-a1b9-22767f81c9ef",
+        "name": "分腿前屈",
+        "time": 5,
+        "side": "居中",
+        "cue": "前屈折叠",
+        "kind": 17,
+        "evidence": "5.2s-8.2s：从上举位向前折叠，双手落于垫面，头部下垂，双腿伸直",
+        "sideEvidence": "从站立前屈，手触地，背部延展"
+      },
+      {
+        "id": "f674be28-f5f8-49b5-b232-9105833a459f",
+        "name": "低弓步",
+        "time": 9,
+        "side": "右侧",
+        "cue": "右脚向前迈步",
+        "kind": 13,
+        "evidence": "9.2s：右脚向前迈一大步至双手之间，左膝落地，形成低弓步",
+        "sideEvidence": "右脚向前跨步，左膝着地，双手撑地"
+      },
+      {
+        "id": "23ac8fc0-0940-487e-a0ee-3c05c852042b",
+        "name": "弓步单臂上伸",
+        "time": 11,
+        "side": "右侧",
+        "cue": "双臂上举，保持弓步",
+        "kind": 14,
+        "evidence": "11.2s-14.2s：在右低弓步基础上，双臂上举过头，脊柱延展",
+        "sideEvidence": "右腿前弓，左膝着地，双臂上举过头"
+      },
+      {
+        "id": "2916264d-6151-41bc-8e71-2cad51154c91",
+        "name": "分腿前屈",
+        "time": 16,
+        "side": "居中",
+        "cue": "收脚回前屈",
+        "kind": 17,
+        "evidence": "16.2s-17.2s：双手撑地，左脚前移至右脚旁，恢复双脚并拢前屈",
+        "sideEvidence": "双手落回垫面，左脚前移与右脚并列，进入前屈"
+      },
+      {
+        "id": "95f58833-444e-4638-a3d1-86644a39050e",
+        "name": "下犬式",
+        "time": 18,
+        "side": "居中",
+        "cue": "推臀向上成下犬",
+        "kind": 12,
+        "evidence": "18.2s-21.2s：从前屈推起，臀部抬高，身体呈倒V，双手双脚支撑",
+        "sideEvidence": "抬臀向上，形成倒V形，脚跟尝试下压"
+      },
+      {
+        "id": "d4a61c2e-b327-43e6-8aa5-c8874f0422ac",
+        "name": "俯卧伸展",
+        "time": 22,
+        "side": "居中",
+        "cue": "落体俯卧，上犬式准备",
+        "kind": 11,
+        "evidence": "22.2s：身体放低至俯卧位，双手撑地，胸腔抬起，髋部贴地",
+        "sideEvidence": "俯身落地，双臂支撑，胸腔上提，头颈延展"
+      },
+      {
+        "id": "2e9eba47-aaa1-4317-92d1-6c74d89a4dab",
+        "name": "下犬式",
+        "time": 25,
+        "side": "居中",
+        "cue": "推回下犬",
+        "kind": 12,
+        "evidence": "25.2s-28.2s：从俯卧位推起，回到下犬式",
+        "sideEvidence": "推起臀部回下犬式"
+      },
+      {
+        "id": "a6c563dc-17e5-4bed-8f4f-7f7415d5b56d",
+        "name": "低弓步",
+        "time": 29,
+        "side": "左侧",
+        "cue": "左脚向前迈步",
+        "kind": 13,
+        "evidence": "29.2s-30.2s：左脚向前迈至双手之间，右膝落地，形成左低弓步",
+        "sideEvidence": "左脚向前跨步，右膝着地"
+      },
+      {
+        "id": "08f8e6bd-b24a-49d9-9ffb-4f745184d12c",
+        "name": "弓步单臂上伸",
+        "time": 31,
+        "side": "左侧",
+        "cue": "双臂上举，保持弓步",
+        "kind": 14,
+        "evidence": "31.2s-34.2s：在左低弓步基础上，双臂上举过头，脊柱延展",
+        "sideEvidence": "左腿前弓，右膝着地，双臂上举过头"
+      },
+      {
+        "id": "8ecf906f-067e-4713-837e-f7103647a5be",
+        "name": "分腿前屈",
+        "time": 35,
+        "side": "居中",
+        "cue": "收脚回前屈",
+        "kind": 17,
+        "evidence": "35.2s-36.2s：双手撑地，右脚前移至左脚旁，恢复双脚并拢前屈",
+        "sideEvidence": "双手落回垫面，右脚前移与左脚并列，进入前屈"
+      },
+      {
+        "id": "67b1d8be-6a1c-49d3-99ea-345930d3aa8f",
+        "name": "分腿前屈",
+        "time": 37,
+        "side": "居中",
+        "cue": "保持前屈",
+        "kind": 17,
+        "evidence": "37.2s-41.2s：持续前屈，未明显移动，为过渡准备",
+        "sideEvidence": "保持前屈姿势，微调重心"
+      },
+      {
+        "id": "634abe87-3fcb-42a2-9fa0-dca1172c73f6",
+        "name": "十指交扣上伸",
+        "time": 42,
+        "side": "居中",
+        "cue": "吸气上举",
+        "kind": 2,
+        "evidence": "42.2s-44.2s：从前屈缓慢起身，双臂上举过头，掌心朝上",
+        "sideEvidence": "从前屈起身，双臂上举过头"
+      },
+      {
+        "id": "15ec367f-916e-493a-8a68-0ff9125061e9",
+        "name": "合十收束",
+        "time": 46,
+        "side": "居中",
+        "cue": "呼气合十",
+        "kind": 23,
+        "evidence": "46.2s-52.2s：双臂由上举位缓慢下落，合十于胸前，站姿稳定",
+        "sideEvidence": "双臂回落，合十于胸前，回归山式"
+      }
+    ],
+    "artworkVersion": 2,
+    "demo": false,
+    "usage": {
+      "prompt_tokens": 4545,
+      "completion_tokens": 1464,
+      "total_tokens": 6009,
+      "completion_tokens_details": {
+        "text_tokens": 1464
+      },
+      "prompt_tokens_details": {
+        "text_tokens": 303,
+        "video_tokens": 4242,
+        "cached_tokens": 0
+      }
+    },
+    "model": "qwen3-vl-plus",
+    "limitations": [
+      "仅画面识别；未结合语音口令",
+      "模型输出尚未完成视频逐项实测核验"
+    ]
+  }
+}

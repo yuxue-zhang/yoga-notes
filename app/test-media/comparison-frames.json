@@ -1,0 +1,66 @@
+{
+  "ok": true,
+  "elapsedMs": 17251,
+  "usage": {
+    "prompt_tokens": 1315,
+    "completion_tokens": 543,
+    "total_tokens": 1858,
+    "completion_tokens_details": {
+      "text_tokens": 543
+    },
+    "prompt_tokens_details": {
+      "image_tokens": 1110,
+      "text_tokens": 205,
+      "cached_tokens": 0
+    }
+  },
+  "result": {
+    "frames": [
+      {
+        "time": 0.25,
+        "name": "低位弓步手触地",
+        "arms": "bent",
+        "body": "躯干前倾，骨盆略前倾；右腿屈膝在前，左腿伸直在后，双脚均接地；右手掌触地，左手未见完整，似悬空或轻触地面",
+        "anatomicalSide": "unknown",
+        "uncertainties": [
+          "左手是否接地不可确认"
+        ]
+      },
+      {
+        "time": 1.75,
+        "name": "平板支撑",
+        "arms": "straight",
+        "body": "躯干呈直线平行于地面；双臂伸直支撑，双手掌接地；双腿伸直并拢，双脚脚尖接地；骨盆与躯干同高，无明显塌腰或翘臀",
+        "anatomicalSide": "symmetric",
+        "uncertainties": []
+      },
+      {
+        "time": 3.75,
+        "name": "俯卧支撑后弯",
+        "arms": "bent",
+        "body": "俯卧位，双肘屈曲支撑上半身抬起，前臂贴地；骨盆及大腿贴地；头部后仰，脊柱后弯；双腿伸直并拢，双脚脚背贴地",
+        "anatomicalSide": "symmetric",
+        "uncertainties": []
+      },
+      {
+        "time": 6.25,
+        "name": "平板支撑",
+        "arms": "straight",
+        "body": "躯干呈直线平行于地面；双臂伸直支撑，双手掌接地；双腿伸直并拢，双脚脚尖接地；骨盆位置中立，与肩髋连线平行",
+        "anatomicalSide": "symmetric",
+        "uncertainties": []
+      },
+      {
+        "time": 7.75,
+        "name": "下犬式变体（单手触地）",
+        "arms": "bent",
+        "body": "躯干呈倒V形，臀部抬高；右臂伸直支撑，右手掌接地；左臂弯曲，左手触地或近地；双腿伸直，双脚脚跟尝试落地但可能未完全接地；骨盆抬离地面",
+        "anatomicalSide": "unknown",
+        "uncertainties": [
+          "左手是否完全接地不可确认",
+          "双脚脚跟是否接地不可确认"
+        ]
+      }
+    ]
+  }
+}
