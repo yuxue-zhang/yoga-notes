@@ -1,15 +1,15 @@
 'use strict';
-let libraryQuery='',libraryCategory='',libraryArtOnly=false,libraryPage=0;
+let libraryQuery='',libraryCategory='',libraryPage=0;
 const libraryPageSize=18;
 function libraryName(p){const index=p.artwork.assetIndexes[0];return Number.isInteger(index)&&poses[index]?poses[index]:p.name;}
 function libraryHasArt(p){return Boolean(p.artwork.assetIndexes.length||CHARACTER_ASSETS.poses[p.id]?.styleReview==='accepted');}
 function libraryView(){
- const catalog=YOGA_POSE_CATALOG,illustrated=catalog.entries.filter(libraryHasArt).length;
- return heading('ONE CHARACTER. A GROWING PRACTICE LIBRARY.','每一个动作，<em>都有自己的名字。</em>','按体式和变体管理，贴纸始终使用同一个原版小女孩。','原版人物 · 固定素材')+`<section class="panel library-intro"><div class="library-metrics"><div><b>${catalog.entries.length}</b><span>体式与常见变体</span></div><div><b>${catalog.categories.length}</b><span>动作类别</span></div><div><b>${illustrated}</b><span>同人物插画</span></div></div><p class="hint">${illustrated} / ${catalog.entries.length} 个体式已配同一人物插画。人物始终参照原版小女孩，体式细节尚待逐项核验。</p><div class="library-tools"><label>搜索体式<input id="library-search" type="search" placeholder="中文或英文，例如：下犬 / Warrior" value="${esc(libraryQuery)}"></label><label>动作类别<select id="library-category"><option value="">全部类别</option>${catalog.categories.map(c=>`<option value="${esc(c)}"${c===libraryCategory?' selected':''}>${esc(c)}</option>`).join('')}</select></label><label class="library-check"><input type="checkbox" id="library-art-only"${libraryArtOnly?' checked':''}>只看已配图</label></div><p class="hint">体式名称与分类参考 <a href="https://www.yogajournal.com/pose-finder/pose-finder?scope=anon" target="_blank" rel="noopener noreferrer">Yoga Journal 体式目录</a>。下面的身体特征用于视频识别比对，不是练习教学口令。</p></section><div id="library-results">${libraryResults()}</div>`;
+ const catalog=YOGA_POSE_CATALOG;
+ return `<div class="intro"><div><div class="eyebrow">ONE CHARACTER. A GROWING PRACTICE LIBRARY.</div><h1>自由组合动作，<em>编排你的专属瑜伽练习</em></h1></div></div><section class="panel library-intro"><div class="library-metrics"><div><b>${catalog.entries.length}</b><span>体式与常见变体</span></div><div><b>${catalog.categories.length}</b><span>动作类别</span></div></div><div class="library-tools"><label>搜索体式<input id="library-search" type="search" placeholder="中文或英文，例如：下犬 / Warrior" value="${esc(libraryQuery)}"></label><label>动作类别<select id="library-category"><option value="">全部类别</option>${catalog.categories.map(c=>`<option value="${esc(c)}"${c===libraryCategory?' selected':''}>${esc(c)}</option>`).join('')}</select></label></div></section><div id="library-results">${libraryResults()}</div>`;
 }
 function libraryFiltered(){
  const query=libraryQuery.trim().toLocaleLowerCase();
- return YOGA_POSE_CATALOG.entries.filter(p=>(!libraryCategory||p.category===libraryCategory)&&(!libraryArtOnly||libraryHasArt(p))&&(!query||[libraryName(p),p.name,p.english,...p.aliases].filter(Boolean).join(' ').toLocaleLowerCase().includes(query)));
+ return YOGA_POSE_CATALOG.entries.filter(p=>(!libraryCategory||p.category===libraryCategory)&&(!query||[libraryName(p),p.name,p.english,...p.aliases].filter(Boolean).join(' ').toLocaleLowerCase().includes(query)));
 }
 function libraryResults(){
  const entries=libraryFiltered(),pages=Math.max(1,Math.ceil(entries.length/libraryPageSize));libraryPage=Math.min(libraryPage,pages-1);
@@ -17,14 +17,14 @@ function libraryResults(){
 }
 function libraryCard(p){
  const indexes=p.artwork.assetIndexes,name=libraryName(p),newArt=characterFigure(p.id,name);
- return `<article class="panel library-card" data-pose-id="${esc(p.id)}"><div class="library-art">${newArt|| (indexes.length?figure(indexes[0]):'<div class="library-art-pending"><span>原版小女孩</span><b>该体式插画待补</b></div>')}</div><div class="library-card-heading"><span class="library-category">${esc(p.category)}</span><span class="library-art-status">${newArt?'同人物插画':indexes.length?'原版参考图':'待补插画'}</span></div><h2>${esc(name)}</h2><p class="library-english">${esc(p.english)}</p><p>${esc(p.description)}</p></article>`;
+ return `<article class="panel library-card" data-pose-id="${esc(p.id)}"><div class="library-art">${newArt|| (indexes.length?figure(indexes[0]):'<div class="library-art-pending"><span>原版小女孩</span><b>该体式插画待补</b></div>')}</div><div class="library-card-heading"><span class="library-category">${esc(p.category)}</span></div><h2>${esc(name)}</h2><p class="library-english">${esc(p.english)}</p><p>${esc(p.description)}</p></article>`;
 }
 function refreshLibraryResults(){const el=document.querySelector('#library-results');if(el){el.innerHTML=libraryResults();bindLibraryResults();}}
 function bindLibrary(){
  const search=document.querySelector('#library-search');if(!search)return;
  search.oninput=()=>{libraryQuery=search.value;libraryPage=0;refreshLibraryResults();};
  document.querySelector('#library-category').onchange=event=>{libraryCategory=event.target.value;libraryPage=0;refreshLibraryResults();};
- document.querySelector('#library-art-only').onchange=event=>{libraryArtOnly=event.target.checked;libraryPage=0;refreshLibraryResults();};bindLibraryResults();
+ bindLibraryResults();
 }
 function bindLibraryResults(){
  const previous=document.querySelector('#library-prev'),next=document.querySelector('#library-next');
@@ -32,4 +32,5 @@ function bindLibraryResults(){
  if(next)next.onclick=()=>{libraryPage++;refreshLibraryResults();document.querySelector('#library-results').scrollIntoView({behavior:'smooth'});};
  const exportButton=document.querySelector('#library-download');if(exportButton)exportButton.onclick=()=>download(JSON.stringify(YOGA_POSE_CATALOG,null,2),'瑜序-常见体式动作库.json','application/json');
 }
+
 
