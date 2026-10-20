@@ -12,3 +12,7 @@ button:disabled,input:disabled{opacity:.5;cursor:wait}.sheet-view{justify-conten
 .personal-avatar{width:240px;max-width:100%;display:block;margin:auto}.personal-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:12px}.personal-grid img{width:100%}.personal-grid p{text-align:center}#personal-select{display:block;padding:12px;width:100%;margin:12px 0}#personal-photo{margin:12px 0}#personal-course,#personal-try,#personal-delete{margin-top:12px}
 
 #personal-three{width:min(1000px,90vw);max-width:90vw}#personal-three .personal-grid{grid-template-columns:repeat(3,1fr)}#personal-three .personal-grid img{max-height:380px;object-fit:contain}
+
+/* Blend the scanned paper into the library surface without changing the artwork. */
+.library-art{isolation:isolate}.library-art>svg{mix-blend-mode:multiply}
+
