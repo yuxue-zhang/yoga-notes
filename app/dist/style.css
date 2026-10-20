@@ -57,3 +57,6 @@ main>footer{margin-top:auto}
 .side-note p{font-size:16px;line-height:1.9}
 @media(max-width:1100px){.side-note p{font-size:13px}}
 @media(max-width:800px){.import-page .step{gap:10px}.import-page .step>span{font-size:26px}.import-page .step strong{font-size:15px}.import-page .step p{font-size:12px}}
+
+.import-page #submit-file{margin-top:18px;min-height:46px}
+
