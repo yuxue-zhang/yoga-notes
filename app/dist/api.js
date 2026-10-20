@@ -86,7 +86,7 @@ document.addEventListener('change',event=>{
   const file=event.target.files[0];if(file)progress('已选择：'+file.name+'。点击“生成练习贴纸”后才会提交。');
 });
 const taskParameter=new URL(location.href).searchParams.get('task');
-const connectButton=document.createElement('button');connectButton.id='connect-free-model';connectButton.textContent='连接免费模型';connectButton.className='secondary';document.querySelector('.side-bottom')?.before(connectButton);
+const connectButton=document.createElement('button');connectButton.id='connect-free-model';connectButton.textContent='连接免费模型';connectButton.className='secondary';
 const providerDialog=document.createElement('dialog');providerDialog.id='provider-settings';
 providerDialog.innerHTML='<h2>连接智谱免费模型</h2><p>只需连接一次，之后直接粘贴视频网址就能使用。</p><p>① <a href="https://open.bigmodel.cn/usercenter/proj-mgmt/apikeys" target="_blank" rel="noopener noreferrer">打开智谱，登录并创建 API Key</a></p><p>② 复制 Key，粘贴到下面。无需充值。</p><form id="provider-form"><label for="provider-key">智谱 API Key</label><input id="provider-key" type="password" autocomplete="off" spellcheck="false" required placeholder="把复制的 Key 粘贴在这里"><p>固定使用免费型号 GLM-4.6V-Flash。Key 仅保存到这台电脑，不在页面中回显。</p><p id="provider-note" role="status"></p><button class="primary" type="submit">验证并保存连接</button><button id="cancel-provider" type="button">稍后再说</button></form>';
 document.body.append(providerDialog);
@@ -104,7 +104,7 @@ if(new URL(location.href).searchParams.get('setup')==='free')providerDialog.show
 const activeJob=/^[a-f0-9]{8}(?:-[a-f0-9]{4}){3}-[a-f0-9]{12}$/.test(taskParameter||'')?taskParameter:localStorage.getItem('yoga-active-job')||sessionStorage.getItem('yoga-active-job')||localStorage.getItem('yoga-resumable-job');
 if(activeJob&&page!=='library'&&page!=='character') {localStorage.setItem('yoga-active-job',activeJob);submitting=true;setBusy(true);followJob(activeJob).catch(e=>progress(e.message)).finally(()=>{submitting=false;setBusy(false);});}
 
-const nextConnect=document.createElement('button');nextConnect.id='connect-next';nextConnect.className='secondary';nextConnect.textContent='连接提供的额度';connectButton.after(nextConnect);
+const nextConnect=document.createElement('button');nextConnect.id='connect-next';nextConnect.className='secondary';nextConnect.textContent='连接提供的额度';
 const nextDialog=document.createElement('dialog');nextDialog.id='next-settings';
 nextDialog.innerHTML='<h2>连接你的模型额度</h2><p>接口地址已填好：</p><p><code>https://api.openai-next.com/v1</code></p><p>这是你提供的第三方平台。填写该平台的 Key 后，仅向此地址验证模型列表；本次不生成图片或分析视频。</p><form id="next-form"><label for="next-key">该平台的 API Key</label><input id="next-key" type="password" autocomplete="off" spellcheck="false" required placeholder="粘贴该平台提供的完整 Key"><p class="hint">Key 仅保存到本机，不会回显。平台的余额和计费规则需以该平台为准。</p><p id="next-note" role="status"></p><button class="primary" type="submit">验证并保存连接</button><button type="button" id="next-close">关闭</button></form>';
 document.body.append(nextDialog);nextConnect.onclick=()=>nextDialog.showModal();document.querySelector('#next-close').onclick=()=>nextDialog.close();nextDialog.addEventListener('close',()=>{document.querySelector('#next-key').value='';});
@@ -112,3 +112,4 @@ document.querySelector('#next-form').onsubmit=async event=>{event.preventDefault
 if(new URL(location.href).searchParams.get('setup')==='next')nextDialog.showModal();
 
 personalRefresh().then(()=>{render();const p=personalProfile();if(p?.status==='generating')personalTask(()=>personalWait(p.id));}).catch(()=>{});
+
