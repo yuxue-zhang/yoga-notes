@@ -82,6 +82,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        104,
+        11,
+        97,
+        300
       ]
     },
     "upward-salute": {
@@ -95,6 +101,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        418,
+        1,
+        105,
+        310
       ]
     },
     "chair": {
@@ -108,6 +120,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        719,
+        5,
+        113,
+        305
       ]
     },
     "warrior-2": {
@@ -121,6 +139,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        951,
+        44,
+        293,
+        260
       ]
     },
     "warrior-1": {
@@ -134,6 +158,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        20,
+        315,
+        255,
+        308
       ]
     },
     "triangle": {
@@ -147,6 +177,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        336,
+        311,
+        270,
+        311
       ]
     },
     "side-angle": {
@@ -160,6 +196,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        670,
+        348,
+        273,
+        276
       ]
     },
     "tree": {
@@ -173,6 +215,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        1018,
+        317,
+        123,
+        315
       ]
     },
     "staff": {
@@ -186,6 +234,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        33,
+        658,
+        258,
+        245
       ]
     },
     "seated-fold": {
@@ -199,6 +253,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        336,
+        703,
+        264,
+        191
       ]
     },
     "boat": {
@@ -212,6 +272,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        639,
+        694,
+        284,
+        203
       ]
     },
     "sphinx": {
@@ -225,6 +291,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        929,
+        697,
+        325,
+        189
       ]
     },
     "bridge": {
@@ -238,6 +310,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        1,
+        1026,
+        304,
+        127
       ]
     },
     "corpse": {
@@ -251,6 +329,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        319,
+        1050,
+        301,
+        136
       ]
     },
     "camel": {
@@ -264,6 +348,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        683,
+        940,
+        208,
+        264
       ]
     },
     "standing-fold": {
@@ -277,6 +367,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        1024,
+        943,
+        194,
+        262
       ]
     },
     "standing-sidebend": {
@@ -290,6 +386,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        77,
+        8,
+        139,
+        304
       ]
     },
     "half-standing-fold": {
@@ -303,6 +405,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        382,
+        43,
+        205,
+        265
       ]
     },
     "pyramid": {
@@ -316,6 +424,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        661,
+        91,
+        264,
+        214
       ]
     },
     "revolved-chair": {
@@ -329,6 +443,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        1019,
+        28,
+        168,
+        280
       ]
     },
     "high-lunge": {
@@ -342,6 +462,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        30,
+        315,
+        256,
+        311
       ]
     },
     "crescent-lunge": {
@@ -355,6 +481,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        348,
+        320,
+        257,
+        309
       ]
     },
     "reverse-warrior": {
@@ -368,6 +500,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        653,
+        331,
+        280,
+        300
       ]
     },
     "revolved-triangle": {
@@ -381,6 +519,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        919,
+        433,
+        398,
+        398
       ]
     },
     "revolved-side-angle": {
@@ -394,6 +538,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        24,
+        662,
+        282,
+        248
       ]
     },
     "goddess": {
@@ -407,6 +557,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        352,
+        638,
+        241,
+        276
       ]
     },
     "garland": {
@@ -420,6 +576,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        691,
+        678,
+        180,
+        236
       ]
     },
     "eagle": {
@@ -433,6 +595,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        1053,
+        631,
+        88,
+        301
       ]
     },
     "warrior-3": {
@@ -446,6 +614,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        17,
+        950,
+        306,
+        263
       ]
     },
     "half-moon": {
@@ -459,6 +633,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        14,
+        433,
+        411,
+        397
       ]
     },
     "revolved-half-moon": {
@@ -472,6 +652,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        471,
+        430,
+        406,
+        398
       ]
     },
     "dancer": {
@@ -485,6 +671,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        986,
+        938,
+        256,
+        288
       ]
     },
     "hand-big-toe": {
@@ -498,6 +690,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        41,
+        9,
+        291,
+        319
       ]
     },
     "standing-split": {
@@ -511,6 +709,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        371,
+        4,
+        221,
+        326
       ]
     },
     "lotus": {
@@ -524,6 +728,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        677,
+        52,
+        217,
+        265
       ]
     },
     "half-lotus": {
@@ -531,13 +741,18 @@
       "characterId": "original-girl-v1",
       "atlas": "08",
       "cell": 0,
-      "cropBottom": 0.1,
       "styleReview": "accepted",
       "poseReview": "draft",
       "referenceAssetIds": [
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        68,
+        18,
+        284,
+        376
       ]
     },
     "seated-arms-up": {
@@ -551,6 +766,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        70,
+        334,
+        174,
+        289
       ]
     },
     "revolved-head-knee": {
@@ -564,6 +785,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        314,
+        346,
+        285,
+        269
       ]
     },
     "wide-seated-fold": {
@@ -577,6 +804,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        619,
+        497,
+        332,
+        125
       ]
     },
     "bound-angle": {
@@ -590,6 +823,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        976,
+        372,
+        240,
+        245
       ]
     },
     "cow-face": {
@@ -603,6 +842,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        53,
+        643,
+        201,
+        275
       ]
     },
     "fire-log": {
@@ -616,6 +861,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        1416,
+        437,
+        268,
+        390
       ]
     },
     "half-spinal-twist": {
@@ -629,6 +880,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        659,
+        645,
+        256,
+        270
       ]
     },
     "bharadvaja": {
@@ -642,6 +899,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        986,
+        643,
+        236,
+        272
       ]
     },
     "marichi-1": {
@@ -655,6 +918,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        23,
+        1004,
+        267,
+        188
       ]
     },
     "marichi-3": {
@@ -668,6 +937,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        332,
+        945,
+        322,
+        247
       ]
     },
     "heron": {
@@ -681,6 +956,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        690,
+        931,
+        186,
+        272
       ]
     },
     "half-boat": {
@@ -688,13 +969,18 @@
       "characterId": "original-girl-v1",
       "atlas": "08",
       "cell": 1,
-      "cropBottom": 0.1,
       "styleReview": "accepted",
       "poseReview": "draft",
       "referenceAssetIds": [
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        429,
+        124,
+        448,
+        242
       ]
     },
     "hero": {
@@ -708,6 +994,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        67,
+        31,
+        156,
+        278
       ]
     },
     "gate": {
@@ -721,6 +1013,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        315,
+        25,
+        235,
+        284
       ]
     },
     "tabletop": {
@@ -734,6 +1032,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        624,
+        69,
+        267,
+        237
       ]
     },
     "bird-dog": {
@@ -747,6 +1051,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        905,
+        78,
+        343,
+        210
       ]
     },
     "tiger": {
@@ -760,6 +1070,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        17,
+        355,
+        258,
+        272
       ]
     },
     "wide-child": {
@@ -773,6 +1089,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        304,
+        497,
+        295,
+        135
       ]
     },
     "puppy": {
@@ -786,6 +1108,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        623,
+        462,
+        301,
+        169
       ]
     },
     "low-lunge": {
@@ -799,6 +1127,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        953,
+        320,
+        274,
+        318
       ]
     },
     "revolved-low-lunge": {
@@ -812,6 +1146,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        51,
+        642,
+        244,
+        306
       ]
     },
     "half-split": {
@@ -825,6 +1165,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        318,
+        735,
+        269,
+        207
       ]
     },
     "upward-dog": {
@@ -838,6 +1184,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        621,
+        728,
+        296,
+        219
       ]
     },
     "locust": {
@@ -851,6 +1203,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        933,
+        764,
+        300,
+        160
       ]
     },
     "bow": {
@@ -864,6 +1222,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        21,
+        1021,
+        253,
+        184
       ]
     },
     "half-frog": {
@@ -877,6 +1241,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        273,
+        1026,
+        333,
+        180
       ]
     },
     "crocodile": {
@@ -890,6 +1260,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        632,
+        1064,
+        297,
+        145
       ]
     },
     "constructive-rest": {
@@ -903,6 +1279,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        936,
+        1069,
+        314,
+        135
       ]
     },
     "knees-chest": {
@@ -916,6 +1298,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        12,
+        114,
+        286,
+        136
       ]
     },
     "single-knee-chest": {
@@ -929,6 +1317,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        316,
+        135,
+        359,
+        115
       ]
     },
     "happy-baby": {
@@ -942,6 +1336,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        690,
+        69,
+        221,
+        195
       ]
     },
     "reclined-bound-angle": {
@@ -955,6 +1355,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        943,
+        128,
+        299,
+        129
       ]
     },
     "reclined-figure-four": {
@@ -968,6 +1374,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        14,
+        388,
+        308,
+        181
       ]
     },
     "reclined-twist": {
@@ -981,6 +1393,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        325,
+        430,
+        286,
+        159
       ]
     },
     "reclined-big-toe": {
@@ -994,6 +1412,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        619,
+        350,
+        304,
+        214
       ]
     },
     "supported-bridge": {
@@ -1001,13 +1425,18 @@
       "characterId": "original-girl-v1",
       "atlas": "08",
       "cell": 2,
-      "cropBottom": 0.1,
       "styleReview": "accepted",
       "poseReview": "draft",
       "referenceAssetIds": [
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        880,
+        139,
+        458,
+        221
       ]
     },
     "fish": {
@@ -1021,6 +1450,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        12,
+        757,
+        310,
+        120
       ]
     },
     "reclined-hero": {
@@ -1034,6 +1469,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        335,
+        748,
+        282,
+        131
       ]
     },
     "legs-wall": {
@@ -1047,6 +1488,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        646,
+        623,
+        266,
+        268
       ]
     },
     "supine-legs-up": {
@@ -1060,6 +1507,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        962,
+        638,
+        270,
+        251
       ]
     },
     "forearm-plank": {
@@ -1073,6 +1526,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        17,
+        990,
+        294,
+        179
       ]
     },
     "four-limbed-staff": {
@@ -1086,6 +1545,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        334,
+        1033,
+        292,
+        140
       ]
     },
     "side-plank": {
@@ -1099,6 +1564,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        636,
+        920,
+        288,
+        266
       ]
     },
     "kneeling-side-plank": {
@@ -1112,6 +1583,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        938,
+        927,
+        301,
+        253
       ]
     },
     "three-legged-dog": {
@@ -1125,6 +1602,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        24,
+        12,
+        277,
+        280
       ]
     },
     "dolphin": {
@@ -1138,6 +1621,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        344,
+        98,
+        258,
+        184
       ]
     },
     "reverse-plank": {
@@ -1151,6 +1640,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        637,
+        94,
+        320,
+        185
       ]
     },
     "reverse-tabletop": {
@@ -1164,6 +1659,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        975,
+        100,
+        265,
+        181
       ]
     },
     "wild-thing": {
@@ -1177,6 +1678,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        37,
+        328,
+        279,
+        247
       ]
     },
     "pigeon-prep": {
@@ -1190,6 +1697,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        340,
+        355,
+        281,
+        225
       ]
     },
     "sleeping-pigeon": {
@@ -1203,6 +1716,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        628,
+        464,
+        312,
+        115
       ]
     },
     "lizard": {
@@ -1210,13 +1729,18 @@
       "characterId": "original-girl-v1",
       "atlas": "08",
       "cell": 3,
-      "cropBottom": 0.1,
       "styleReview": "accepted",
       "poseReview": "draft",
       "referenceAssetIds": [
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        1365,
+        52,
+        398,
+        320
       ]
     },
     "frog-stretch": {
@@ -1230,6 +1754,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        14,
+        737,
+        273,
+        148
       ]
     },
     "splits": {
@@ -1243,6 +1773,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        288,
+        659,
+        366,
+        225
       ]
     },
     "king-pigeon": {
@@ -1256,6 +1792,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        702,
+        664,
+        223,
+        219
       ]
     },
     "headstand": {
@@ -1269,6 +1811,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        1045,
+        598,
+        111,
+        294
       ]
     },
     "shoulderstand": {
@@ -1282,6 +1830,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        31,
+        900,
+        186,
+        299
       ]
     },
     "plow": {
@@ -1295,6 +1849,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        316,
+        1051,
+        304,
+        147
       ]
     },
     "handstand": {
@@ -1308,6 +1868,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        713,
+        899,
+        136,
+        309
       ]
     },
     "forearm-stand": {
@@ -1321,6 +1887,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        1073,
+        904,
+        125,
+        301
       ]
     },
     "wheel": {
@@ -1334,6 +1906,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        25,
+        95,
+        421,
+        318
       ]
     },
     "crow": {
@@ -1347,6 +1925,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        519,
+        89,
+        326,
+        328
       ]
     },
     "side-crow": {
@@ -1360,6 +1944,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        906,
+        114,
+        353,
+        299
       ]
     },
     "eight-angle": {
@@ -1373,6 +1963,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        1338,
+        96,
+        425,
+        316
       ]
     },
     "peacock": {
@@ -1386,6 +1982,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        18,
+        556,
+        447,
+        255
       ]
     },
     "scale": {
@@ -1399,6 +2001,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        544,
+        460,
+        249,
+        365
       ]
     },
     "firefly": {
@@ -1412,6 +2020,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        884,
+        517,
+        446,
+        302
       ]
     },
     "crane": {
@@ -1425,6 +2039,12 @@
         "original-00",
         "original-03",
         "original-12"
+      ],
+      "bounds": [
+        1423,
+        474,
+        328,
+        352
       ]
     }
   }

@@ -28,3 +28,16 @@ test('每个体式映射到合法图格且重复渲染使用相同素材',async(
  }
  assert.equal(registry.poses['supported-bridge'].atlas,'08');assert.equal(registry.poses['half-boat'].atlas,'08');
 });
+test('每个新增插画使用单独完整人物边界，避免邻格残肢和等分裁切',async()=>{
+ const code=await readFile(new URL('../dist/character-assets.js',import.meta.url),'utf8');
+ const context=vm.createContext({YOGA_CHARACTER_ASSETS:registry,esc:s=>String(s)});vm.runInContext(code,context);
+ for(const [id,asset]of Object.entries(registry.poses)){
+  const a=registry.atlases[asset.atlas];assert.equal(asset.bounds?.length,4,id);
+  const [x,y,w,h]=asset.bounds;assert.ok(x>=0&&y>=0&&w>0&&h>0&&x+w<=a.width&&y+h<=a.height,id);
+  const svg=vm.runInContext(`characterFigure(${JSON.stringify(id)},'体式')`,context);
+  assert.ok(svg.includes(`viewBox="${x} ${y} ${w} ${h}"`),id);assert.ok(!asset.cropBottom,id);
+ }
+ const browserCode=await readFile(new URL('../dist/character-atlases.js',import.meta.url),'utf8');
+ const browser=vm.createContext({});vm.runInContext(browserCode,browser);
+ assert.equal(vm.runInContext('JSON.stringify(YOGA_CHARACTER_ASSETS)',browser),JSON.stringify(registry));
+});
