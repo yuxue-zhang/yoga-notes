@@ -40,3 +40,20 @@ main>footer{margin-top:auto}
 @media(max-width:1100px){.side-note p{font-size:12px}}
 @media(max-width:800px){main{min-height:calc(100vh - 150px)}.import-page .steps{padding-top:32px;margin-bottom:24px}}
 @media print{main{display:none!important}}
+/* Import typography: consistent larger labels, with complete sample strips. */
+.import-page .step{gap:18px;align-items:flex-start}
+.import-page .step>span{font-size:30px;line-height:1.3}
+.import-page .step strong{font-size:16px;line-height:1.6}
+.import-page .step p{font-size:13px;line-height:1.8;margin-top:5px}
+.import-page .preview-head{font-size:12px;line-height:1.8;letter-spacing:0}
+.import-page .strip-title{font-size:15px;letter-spacing:1px}
+.import-page .strip-title small{font-size:8px;line-height:1.6;letter-spacing:.4px}
+.import-page .pose-card{padding:10px 0}
+.import-page .pose-card b{font-size:11px;line-height:1.6}
+.import-page .pose-card small{font-size:9px;line-height:1.6}
+.import-page .pose-card .num{font-size:9px}
+.import-page .pill{font-size:12px;padding:6px 13px}
+.side-note{padding-left:7px;padding-right:7px}
+.side-note p{font-size:16px;line-height:1.9}
+@media(max-width:1100px){.side-note p{font-size:13px}}
+@media(max-width:800px){.import-page .step{gap:10px}.import-page .step>span{font-size:26px}.import-page .step strong{font-size:15px}.import-page .step p{font-size:12px}}
