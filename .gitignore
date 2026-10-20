@@ -1,0 +1,12 @@
+.worktrees/
+.env
+.env.*
+!.env.example
+node_modules/
+**/runtime/
+**/.tools/
+
+# Local diagnostic videos and extracted frames
+app/test-media/
+*.log
+
