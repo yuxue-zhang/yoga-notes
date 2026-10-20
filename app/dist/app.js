@@ -3,7 +3,7 @@ const $=s=>document.querySelector(s), esc=s=>String(s??'').replace(/[&<>"']/g,c=
 const poses=['坐姿调息','颈侧伸展','十指交扣上伸','坐姿侧伸展','坐姿扭转','束角前屈','单腿前屈','跪姿支撑侧伸','牛式','猫式','平板支撑','俯卧伸展','下犬式','低弓步','弓步单臂上伸','高弓步合十','弓步合十扭转','分腿前屈','婴儿式','跪姿侧伸示意','穿针引线示意','跪坐调息','跪坐双臂上举','合十收束'];
 let state={title:'我的瑜伽练习',source:'',artworkVersion:2,demo:false,items:[],selected:0}, page=location.pathname==='/character'?'character':(location.pathname==='/library'||new URL(location.href).searchParams.get('view')==='library')?'library':'import',mode='link',pending='',toastTimer;
 try{const d=JSON.parse(localStorage.getItem('yoga-sequence-v1'));if(d&&Array.isArray(d.items)&&d.items.length<=900)state={...state,...d,artworkVersion:d.artworkVersion||1};}catch{}
-function save(){try{localStorage.setItem('yoga-sequence-v1',JSON.stringify(state));$('#save-status').textContent='预览已保存在此浏览器';}catch{notify('浏览器无法保存，下次可重新打开示例。');}}
+function save(){try{localStorage.setItem('yoga-sequence-v1',JSON.stringify(state));}catch{notify('浏览器无法保存，下次可重新打开示例。');}}
 function notify(t){$('#toast').textContent=t;$('#toast').classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('visible'),3500);}
 // Original artwork extracted from the user-approved v1 PDF, without redrawing.
 function figure(kind=0){if(kind===null||!Number.isInteger(Number(kind))||!ORIGINAL_ARTWORK[Number(kind)])return '<svg width="150" height="140" viewBox="0 0 150 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="暂无原版插画"><text x="75" y="65" text-anchor="middle" font-size="10" fill="#7b8970">暂无原版插画</text><text x="75" y="82" text-anchor="middle" font-size="7" fill="#929b87">原版素材暂未覆盖</text></svg>';return `<svg width="150" height="140" viewBox="0 0 150 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(poses[Number(kind)])}原版插画"><image href="${ORIGINAL_ARTWORK[Number(kind)]}" x="0" y="0" width="150" height="140" preserveAspectRatio="xMidYMid meet"/></svg>`;}
@@ -51,6 +51,7 @@ function longSVG(){const height=150+state.items.length*210;return `<svg xmlns="h
 async function exportLongSVG(){try{download(await embedCharacterAtlases(longSVG()),'瑜序-完整长条.svg','image/svg+xml');}catch{notify('人物素材读取失败，请稍后再导出。');}}
 async function exportPNG(){if(state.items.length>150){notify('这份练习较长，请使用 SVG 下载或 A4 打印，避免浏览器图片尺寸限制。');return;}const raw=await embedCharacterAtlases(longSVG()),url=URL.createObjectURL(new Blob([raw],{type:'image/svg+xml'}));try{const img=new Image();await new Promise((resolve,reject)=>{img.onload=resolve;img.onerror=reject;img.src=url;});const canvas=document.createElement('canvas');canvas.width=600;canvas.height=150+state.items.length*210;const ctx=canvas.getContext('2d');ctx.drawImage(img,0,0);const blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/png'));if(!blob)throw Error();download(blob,'瑜序-完整长条.png');notify('长条图片已导出。');}catch{notify('图片导出失败，可先使用 SVG 下载或打印。');}finally{URL.revokeObjectURL(url);}}
 if($('#about'))$('#about').onclick=()=>$('#modal').showModal();$('#close-modal').onclick=()=>$('#modal').close();$('.brand').onclick=e=>{e.preventDefault();navigate('import');};render();
+
 
 
 
