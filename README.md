@@ -1,4 +1,4 @@
-# 瑜序 · Yoga Notes
+# 瑜伽随记 · Yoga Notes
 
 **把熟悉的练习，留在垫边。**
 
