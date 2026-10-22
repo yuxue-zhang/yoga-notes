@@ -1,4 +1,4 @@
-# 瑜序 · Yoga Tape
+# 瑜序 · Yoga Notes
 
 **把熟悉的练习，留在垫边。**
 
@@ -38,8 +38,8 @@
 项目的 Node 服务没有第三方 npm 运行依赖，不需要执行 `npm install`。
 
 ```powershell
-git clone https://github.com/yuxue-zhang/yoga-tape.git
-cd yoga-tape/app
+git clone https://github.com/yuxue-zhang/yoga-notes.git
+cd yoga-notes/app
 Copy-Item .env.example .env
 node --env-file=.env server.mjs
 ```
@@ -100,7 +100,7 @@ node --env-file=.env server.mjs
 ## 开发说明
 
 ```text
-yoga-tape/
+yoga-notes/
 ├─ README.md                  项目介绍与启动说明
 ├─ 打开瑜序.cmd                Windows 启动入口
 ├─ AGENTS.md                  开发约定
