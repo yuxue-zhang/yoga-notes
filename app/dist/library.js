@@ -30,7 +30,7 @@ function bindLibraryResults(){
  const previous=document.querySelector('#library-prev'),next=document.querySelector('#library-next');
  if(previous)previous.onclick=()=>{libraryPage--;refreshLibraryResults();document.querySelector('#library-results').scrollIntoView({behavior:'smooth'});};
  if(next)next.onclick=()=>{libraryPage++;refreshLibraryResults();document.querySelector('#library-results').scrollIntoView({behavior:'smooth'});};
- const exportButton=document.querySelector('#library-download');if(exportButton)exportButton.onclick=()=>download(JSON.stringify(YOGA_POSE_CATALOG,null,2),'瑜序-常见体式动作库.json','application/json');
+ const exportButton=document.querySelector('#library-download');if(exportButton)exportButton.onclick=()=>download(JSON.stringify(YOGA_POSE_CATALOG,null,2),'瑜伽随记-常见体式动作库.json','application/json');
 }
 
 
