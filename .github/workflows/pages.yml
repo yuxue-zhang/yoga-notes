@@ -37,6 +37,7 @@ jobs:
           text = text.replace("'/library'", repr(base + "library"))
           text = text.replace(":'/';viewURL.searchParams", ":" + repr(base) + ";viewURL.searchParams")
           text = text.replace('href="/original.pdf"', 'href="' + base + 'original.pdf"')
+          text = text.replace("location.pathname===", "location.pathname.replace(/\\/$/,\u0027\u0027)===")
           application.write_text(text, encoding="utf-8")
           atlases = target / "character-atlases.js"
           atlases.write_text(atlases.read_text(encoding="utf-8").replace('"/assets/', '"' + base + 'assets/'), encoding="utf-8")
