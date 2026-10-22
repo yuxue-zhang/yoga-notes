@@ -37,13 +37,13 @@ jobs:
           text = text.replace("'/library'", repr(base + "library"))
           text = text.replace(":'/';viewURL.searchParams", ":" + repr(base) + ";viewURL.searchParams")
           text = text.replace('href="/original.pdf"', 'href="' + base + 'original.pdf"')
-          text = text.replace("location.pathname===", "location.pathname.replace(/\\/$/,\u0027\u0027)===")
+          text = text.replace("location.pathname===", "location.pathname.replace(/\\/$/,'')===")
           application.write_text(text, encoding="utf-8")
           atlases = target / "character-atlases.js"
           atlases.write_text(atlases.read_text(encoding="utf-8").replace('"/assets/', '"' + base + 'assets/'), encoding="utf-8")
           index = target / "index.html"
           html = index.read_text(encoding="utf-8").replace("<head>", '<head><base href="' + base + '">', 1)
-          html = html.replace(\u0027.js"\u0027, \u0027.js?v=\u0027 + os.environ["GITHUB_SHA"] + \u0027"\u0027)
+          html = html.replace('.js"', '.js?v=' + os.environ["GITHUB_SHA"] + '"')
           index.write_text(html, encoding="utf-8")
           for route in ("library", "character"):
               folder = target / route
