@@ -1,0 +1,57 @@
+name: Publish website
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Prepare existing website for project URL
+        env:
+          REPOSITORY: ${{ github.event.repository.name }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import pathlib
+          import shutil
+          source = pathlib.Path("app/dist")
+          target = pathlib.Path("_site")
+          shutil.copytree(source, target)
+          base = "/" + os.environ["REPOSITORY"] + "/"
+          application = target / "app.js"
+          text = application.read_text(encoding="utf-8")
+          text = text.replace("'/character'", repr(base + "character"))
+          text = text.replace("'/library'", repr(base + "library"))
+          text = text.replace(":'/';viewURL.searchParams", ":" + repr(base) + ";viewURL.searchParams")
+          text = text.replace('href="/original.pdf"', 'href="' + base + 'original.pdf"')
+          application.write_text(text, encoding="utf-8")
+          atlases = target / "character-atlases.js"
+          atlases.write_text(atlases.read_text(encoding="utf-8").replace('"/assets/', '"' + base + 'assets/'), encoding="utf-8")
+          index = target / "index.html"
+          html = index.read_text(encoding="utf-8").replace("<head>", '<head><base href="' + base + '">', 1)
+          index.write_text(html, encoding="utf-8")
+          for route in ("library", "character"):
+              folder = target / route
+              folder.mkdir()
+              (folder / "index.html").write_text(html, encoding="utf-8")
+          (target / ".nojekyll").touch()
+          PY
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
