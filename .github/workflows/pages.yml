@@ -43,6 +43,7 @@ jobs:
           atlases.write_text(atlases.read_text(encoding="utf-8").replace('"/assets/', '"' + base + 'assets/'), encoding="utf-8")
           index = target / "index.html"
           html = index.read_text(encoding="utf-8").replace("<head>", '<head><base href="' + base + '">', 1)
+          html = html.replace(\u0027.js"\u0027, \u0027.js?v=\u0027 + os.environ["GITHUB_SHA"] + \u0027"\u0027)
           index.write_text(html, encoding="utf-8")
           for route in ("library", "character"):
               folder = target / route
