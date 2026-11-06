@@ -1,0 +1,12 @@
+**
+!app/
+!app/**
+!deploy/
+!deploy/railway/
+!deploy/railway/**
+**/.env
+**/.env.*
+**/runtime
+**/.tools
+**/node_modules
+**/test
